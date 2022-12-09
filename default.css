@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to bottom, rgba(145, 200, 255, 0.3),rgba(145, 200, 255, 0.3)), url("images/bg-body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
