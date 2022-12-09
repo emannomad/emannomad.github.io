@@ -130,7 +130,7 @@ function loseScreen() {
   screen.style.alignItems = "center";
   screen.style.justifyContent = "center";
   screen.style.backgroundColor = "black";
-  menuBtn.onclick = () => window.open("menu.html", "_self");
+  menuBtn.onclick = () => window.open("index.html", "_self");
   continueBtn.onclick = () => {
     board.removeChild(screen);
     for (x of board.children) {
