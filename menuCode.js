@@ -6,13 +6,13 @@ const custom2 = document.getElementById("custom-2");
 const inpot = document.getElementById("input");
 const customForm = document.getElementById("custom-form");
 modeEasy.onclick = () => {
-  sessionStorage.setItem("size", 10);
+  sessionStorage.setItem("size", 5);
 }
 modeMedium.onclick = () => {
-  sessionStorage.setItem("size", 20);
+  sessionStorage.setItem("size", 10);
 }
 modeHard.onclick = () => {
-  sessionStorage.setItem("size", 30);
+  sessionStorage.setItem("size", 20);
 }
 
 modeCustom.onclick = () => {
